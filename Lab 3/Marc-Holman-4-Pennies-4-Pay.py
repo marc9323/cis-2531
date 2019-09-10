@@ -18,7 +18,7 @@ print("Days", "Pay", "Total", sep="\t")
 print(day, "$"+str(pay), "$"+str(total), sep="\t")
 
 # loop through each day, perform calculations, output results
-while day <= numDays:
+while day < numDays:
     pay *= 2 # double the pay
     day += 1 # increment the days
     total += pay # keep a running total
@@ -31,7 +31,7 @@ SAMPLE OUTPUT:
 
 Number of days to calculate: 12
 Days	Pay	Total
-1	0.01	0.01
+1	$0.01	$0.01
 2	$0.02	$0.03
 3	$0.04	$0.07
 4	$0.08	$0.15
