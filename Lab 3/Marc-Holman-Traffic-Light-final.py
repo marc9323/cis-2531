@@ -9,7 +9,7 @@ Lab 3: Create a Traffic Light Design Using Nested Loops
 import turtle as t;
 
 # create a tuple of colors, so drawn in order
-colors = ( 'red', 'yellow', 'green' )
+colors = ( 'green', 'yellow', 'red' )
 
 # set a starting Y position to approximately center the design
 positionY = -150

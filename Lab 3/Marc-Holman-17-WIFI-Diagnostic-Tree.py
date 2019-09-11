@@ -14,11 +14,11 @@ print("Welcome to WIFI Diagnostic Program:")
 print("Start by rebooting the computer and try to connect again.")
 
 # get user input
-userInput = input("Did that fix the problem?")
+userInput = input(DID_IT_FIX)
 
 # enter diagnostic tree
 if userInput == 'y':
-    print("Great! Exiting program...")
+    print(SUCCESS)
 else:
     if userInput == 'n':
         print("Reboot the router and try to connect.")
