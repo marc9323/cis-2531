@@ -177,14 +177,18 @@ def drawRhombus(color, sideLength, angle):
 def drawConcentricSquares(startX = 100, startY = 100, numSquares = 5, sideLength = 50, offset = 5):
     # position the pen and then call drawRecursively(...)
     # this way the pen is reset outside the recursive call
+    # prevents pen from being reset with each recursive call
+
     # if numSquares * offset is greater than sideLength, squares will 
     # draw over themselves so
     if numSquares * offset > sideLength:
         offset = sideLength // numSquares
+        print(f"numSquares * offset greater than side length.  New offset: {offset} ")
         
     t.penup()
     t.goto(startX, startY)
 
+    # recursive function to draw concentric squares
     def drawRecursively(numSquares, sideLength, offset):
         if numSquares > 0:
             # draw a square
