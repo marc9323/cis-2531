@@ -9,7 +9,7 @@ Lab 3: Pennies For Pay, Exercise 4
 total = .01
 pay = .01
 day = 1
-
+#comment
 # ask the user for number of days to calculate
 numDays = int(input("Number of days to calculate: "))
 
