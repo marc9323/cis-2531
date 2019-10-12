@@ -1,0 +1,4 @@
+Modular
+vitalsource.com
+store answers in tuple
+upper/lower case

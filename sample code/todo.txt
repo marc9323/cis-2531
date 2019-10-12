@@ -1,0 +1,5 @@
+1.)  Servlet connection to Oracle 12c
+2.)  get a hibernate connection and test sample code
+3.)  Map Entity relationships for JustLee database
+4.)  CRUD JSP web interface
+
